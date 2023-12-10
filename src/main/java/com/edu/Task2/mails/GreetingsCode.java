@@ -9,6 +9,6 @@ public class GreetingsCode extends AbstractCode {
 
     @Override
     public String generate(){
-        return "";
+        return String.format("<h1>Welcome, %s</h1><h3>Good to see you!</h3>", this.recepient.getName());
     }
 }

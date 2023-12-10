@@ -9,6 +9,6 @@ public class NewsCode extends AbstractCode {
 
     @Override
     public String generate(){
-        return "";
+        return String.format("<h1>Attention, %s</h1><h3>This is a very important new letter!</h3>", this.recepient.getName());
     }
 }
