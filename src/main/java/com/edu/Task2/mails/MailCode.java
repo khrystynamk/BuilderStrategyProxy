@@ -1,5 +1,5 @@
-package com.edu.Task2.mails;
+package com.edu.task2.mails;
 
 public interface MailCode {
-    public String generate();
+    String generate();
 }

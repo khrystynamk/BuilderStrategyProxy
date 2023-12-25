@@ -1,4 +1,4 @@
-package com.edu.Task1;
+package com.edu.task1;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
 @SuperBuilder @ToString(callSuper = true)
-public class Student extends User{
+public class Student extends User {
     @Singular
     public List<Integer> grades;
 }

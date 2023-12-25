@@ -1,6 +1,6 @@
-package com.edu.Task2.mails;
+package com.edu.task2.mails;
 
-import com.edu.Task2.Client;
+import com.edu.task2.Client;
 
 public abstract class AbstractCode implements MailCode {
     public Client recepient;

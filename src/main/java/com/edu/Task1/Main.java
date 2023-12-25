@@ -1,4 +1,4 @@
-package com.edu.Task1;
+package com.edu.task1;
 
 // import java.util.Arrays;
 

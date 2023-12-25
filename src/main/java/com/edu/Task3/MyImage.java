@@ -1,4 +1,4 @@
-package com.edu.Task3;
+package com.edu.task3;
 
 public interface MyImage {
     void display();

@@ -1,7 +1,7 @@
-package com.edu.Task3;
+package com.edu.task3;
 
 // lazy evaluation - the info is not processed until it is used
-public class ProxyImage implements MyImage{
+public class ProxyImage implements MyImage {
     private RealImage realImage;
     private String filename;
 

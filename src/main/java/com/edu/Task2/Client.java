@@ -1,15 +1,11 @@
-package com.edu.Task2;
+package com.edu.task2;
 
 import lombok.Getter;
 
-enum Gender {
-    MALE, FEMALE
-}
-
 public class Client {
+    private static int counter;
     @Getter
     private Integer id;
-    private static int counter;
     @Getter
     private String name;
     @Getter
@@ -20,7 +16,7 @@ public class Client {
     private String email;
 
     public Client(String email, String name, int age, Gender gender) {
-        this.id = counter ++;
+        this.id = counter++;
         this.email = email;
         this.name = name;
         this.age = age;

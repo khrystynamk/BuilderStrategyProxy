@@ -1,4 +1,4 @@
-package com.edu.Task1;
+package com.edu.task1;
 
 // import java.util.List;
 
@@ -6,10 +6,6 @@ package com.edu.Task1;
 // import lombok.Singular;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
-
-enum Gender {
-    MALE, FEMALE
-}
 
 @SuperBuilder
 @ToString
